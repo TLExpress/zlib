@@ -1,0 +1,10 @@
+﻿  Microsoft (R) Macro Assembler (x64) Version 14.25.28614.0
+   Assembling: inffasx64.asm
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  Microsoft (R) Macro Assembler (x64) Version 14.25.28614.0
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+   Assembling: gvmat64.asm
+     正在建立程式庫 x64\ZlibDllDebug\zlibwapi.lib 和物件 x64\ZlibDllDebug\zlibwapi.exp
+  zlibvc.vcxproj -> C:\Users\hank2\source\repos\ULU\ULU\zlib\contrib\vstudio\vc19\x64\ZlibDllDebug\zlibwapi.dll
