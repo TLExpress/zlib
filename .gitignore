@@ -24,3 +24,21 @@
 /configure.log
 
 .DS_Store
+*.lst
+*.obj
+contrib/vstudio/vc19/.vs/zlibvc/v16/.suo
+*.db
+*.db-shm
+*.db
+*.exe
+*.ilk
+*.obj
+*.obj
+*.tlog
+*.tlog
+*.lib
+*.db
+*.opendb
+*.db
+*.db-wal
+*.ilk

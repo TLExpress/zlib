@@ -6,5 +6,28 @@
   Copyright (C) Microsoft Corporation.  All rights reserved.
   
    Assembling: inffas32.asm
-     正在建立程式庫 x86\ZlibDllDebug\zlibwapi.lib 和物件 x86\ZlibDllDebug\zlibwapi.exp
-  zlibvc.vcxproj -> C:\Users\hank2\source\repos\ULU\ULU\zlib\contrib\vstudio\vc19\x86\ZlibDllDebug\zlibwapi.dll
+  zlibaddons.c
+c1 : fatal error C1083: 無法開啟來源檔案: '..\..\..\..\zlibaddons.c': No such file or directory
+  adler32.c
+  compress.c
+  crc32.c
+  deflate.c
+  Assembler code may have bugs -- use at your own risk
+  gzclose.c
+  gzlib.c
+  gzread.c
+  gzwrite.c
+  infback.c
+  inffast.c
+  Assembler code may have bugs -- use at your own risk
+  inflate.c
+  inftrees.c
+  ioapi.c
+  iowin32.c
+C:\Users\hank2\source\repos\zlib\contrib\minizip\iowin32.c(31,32): warning C4067: 未預期的語彙基元，接著前置處理器指示詞 - 必須是新行
+  trees.c
+  uncompr.c
+  unzip.c
+  zip.c
+  zutil.c
+  正在產生程式碼...
