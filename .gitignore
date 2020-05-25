@@ -42,3 +42,6 @@ contrib/vstudio/vc19/.vs/zlibvc/v16/.suo
 *.db
 *.db-wal
 *.ilk
+*.obj
+*.obj
+*.tlog

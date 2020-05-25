@@ -1,16 +1,44 @@
-﻿  Microsoft (R) Macro Assembler (x64) Version 14.25.28614.0
+﻿  Microsoft (R) Macro Assembler (x64) Version 14.26.28805.0
   Copyright (C) Microsoft Corporation.  All rights reserved.
   
    Assembling: inffasx64.asm
-  Microsoft (R) Macro Assembler (x64) Version 14.25.28614.0
+  Microsoft (R) Macro Assembler (x64) Version 14.26.28805.0
   Copyright (C) Microsoft Corporation.  All rights reserved.
   
    Assembling: gvmat64.asm
+  adler32.c
+  compress.c
+  crc32.c
+  deflate.c
+  Assembler code may have bugs -- use at your own risk
+  gzclose.c
+  gzlib.c
+  gzread.c
+C:\Users\hank2\source\repos\zlib\gzread.c(319,20): warning C4267: '=': 將 'size_t' 轉換為 'unsigned int'，資料可能遺失
+C:\Users\hank2\source\repos\zlib\gzread.c(400,35): warning C4267: '=': 將 'size_t' 轉換為 'unsigned int'，資料可能遺失
+C:\Users\hank2\source\repos\zlib\gzread.c(472,33): warning C4267: '=': 將 'size_t' 轉換為 'int'，資料可能遺失
+  gzwrite.c
+C:\Users\hank2\source\repos\zlib\gzwrite.c(212,27): warning C4267: '=': 將 'size_t' 轉換為 'unsigned int'，資料可能遺失
+C:\Users\hank2\source\repos\zlib\gzwrite.c(232,24): warning C4267: '=': 將 'size_t' 轉換為 'unsigned int'，資料可能遺失
+C:\Users\hank2\source\repos\zlib\gzwrite.c(371,36): warning C4267: '=': 將 'size_t' 轉換為 'int'，資料可能遺失
+  infback.c
   zlibaddons.c
+  inffas8664.c
+  inffast.c
+  Assembler code may have bugs -- use at your own risk
+  inflate.c
+  inftrees.c
+  ioapi.c
+  iowin32.c
+C:\Users\hank2\source\repos\zlib\contrib\minizip\iowin32.c(31,32): warning C4067: 未預期的語彙基元，接著前置處理器指示詞 - 必須是新行
+  trees.c
+  uncompr.c
+  zutil.c
+  unzip.c
+  zip.c
      正在建立程式庫 x64\ZlibDllRelease\zlibwapi.lib 和物件 x64\ZlibDllRelease\zlibwapi.exp
   正在產生程式碼
-  4 of 268 functions ( 1.5%) were compiled, the rest were copied from previous compilation.
-    4 functions were new in current compilation
-    19 functions had inline decision re-evaluated but remain unchanged
+  Previous IPDB not found, fall back to full compilation.
+  All 268 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
   已完成程式碼產生
-  zlibvc.vcxproj -> C:\Users\hank2\source\repos\ULU\ULU\zlib\contrib\vstudio\vc19\x64\ZlibDllRelease\zlibwapi.dll
+  zlibvc.vcxproj -> C:\Users\hank2\source\repos\zlib\contrib\vstudio\vc19\x64\ZlibDllRelease\zlibwapi.dll

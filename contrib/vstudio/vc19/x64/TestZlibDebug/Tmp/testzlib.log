@@ -14,4 +14,4 @@
   uncompr.c
   zutil.c
   正在產生程式碼...
-  testzlib.vcxproj -> C:\Users\hank2\source\repos\ULU\ULU\zlib\contrib\vstudio\vc19\x64\TestZlibDebug\testzlib.exe
+  testzlib.vcxproj -> C:\Users\hank2\source\repos\zlib\contrib\vstudio\vc19\x64\TestZlibDebug\testzlib.exe

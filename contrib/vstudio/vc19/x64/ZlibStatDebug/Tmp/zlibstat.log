@@ -5,7 +5,13 @@
   gzclose.c
   gzlib.c
   gzread.c
+C:\Users\hank2\source\repos\zlib\gzread.c(319,20): warning C4267: '=': 將 'size_t' 轉換為 'unsigned int'，資料可能遺失
+C:\Users\hank2\source\repos\zlib\gzread.c(400,35): warning C4267: '=': 將 'size_t' 轉換為 'unsigned int'，資料可能遺失
+C:\Users\hank2\source\repos\zlib\gzread.c(472,33): warning C4267: '=': 將 'size_t' 轉換為 'int'，資料可能遺失
   gzwrite.c
+C:\Users\hank2\source\repos\zlib\gzwrite.c(212,27): warning C4267: '=': 將 'size_t' 轉換為 'unsigned int'，資料可能遺失
+C:\Users\hank2\source\repos\zlib\gzwrite.c(232,24): warning C4267: '=': 將 'size_t' 轉換為 'unsigned int'，資料可能遺失
+C:\Users\hank2\source\repos\zlib\gzwrite.c(371,36): warning C4267: '=': 將 'size_t' 轉換為 'int'，資料可能遺失
   infback.c
   inffas8664.c
   inffast.c
@@ -18,4 +24,4 @@
   zip.c
   zutil.c
   正在產生程式碼...
-  zlibstat.vcxproj -> C:\Users\hank2\source\repos\ULU\ULU\zlib\contrib\vstudio\vc19\x64\ZlibStatDebug\zlibstat.lib
+  zlibstat.vcxproj -> C:\Users\hank2\source\repos\zlib\contrib\vstudio\vc19\x64\ZlibStatDebug\zlibstat.lib

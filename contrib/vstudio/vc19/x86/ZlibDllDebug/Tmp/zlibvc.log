@@ -6,8 +6,6 @@
   Copyright (C) Microsoft Corporation.  All rights reserved.
   
    Assembling: inffas32.asm
-  zlibaddons.c
-c1 : fatal error C1083: 無法開啟來源檔案: '..\..\..\..\zlibaddons.c': No such file or directory
   adler32.c
   compress.c
   crc32.c
@@ -18,6 +16,7 @@ c1 : fatal error C1083: 無法開啟來源檔案: '..\..\..\..\zlibaddons.c': No
   gzread.c
   gzwrite.c
   infback.c
+  zlibaddons.c
   inffast.c
   Assembler code may have bugs -- use at your own risk
   inflate.c
@@ -31,3 +30,5 @@ C:\Users\hank2\source\repos\zlib\contrib\minizip\iowin32.c(31,32): warning C4067
   zip.c
   zutil.c
   正在產生程式碼...
+     正在建立程式庫 x86\ZlibDllDebug\zlibwapi.lib 和物件 x86\ZlibDllDebug\zlibwapi.exp
+  zlibvc.vcxproj -> C:\Users\hank2\source\repos\zlib\contrib\vstudio\vc19\x86\ZlibDllDebug\zlibwapi.dll

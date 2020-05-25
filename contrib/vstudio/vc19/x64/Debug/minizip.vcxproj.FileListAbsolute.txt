@@ -1,2 +1,2 @@
-C:\Users\hank2\source\repos\ULU\ULU\zlib\contrib\vstudio\vc19\x64\Debug\minizip.exe
-C:\Users\hank2\source\repos\ULU\ULU\zlib\contrib\vstudio\vc19\x64\Debug\minizip.pdb
+C:\Users\hank2\source\repos\zlib\contrib\vstudio\vc19\x64\Debug\minizip.exe
+C:\Users\hank2\source\repos\zlib\contrib\vstudio\vc19\x64\Debug\minizip.pdb

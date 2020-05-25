@@ -16,4 +16,4 @@
   Previous IPDB not found, fall back to full compilation.
   All 69 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
   已完成程式碼產生
-  testzlib.vcxproj -> C:\Users\hank2\source\repos\ULU\ULU\zlib\contrib\vstudio\vc19\x86\TestZlibRelease\testzlib.exe
+  testzlib.vcxproj -> C:\Users\hank2\source\repos\zlib\contrib\vstudio\vc19\x86\TestZlibRelease\testzlib.exe

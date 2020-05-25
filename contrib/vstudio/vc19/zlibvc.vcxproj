@@ -229,7 +229,7 @@
       <Culture>0x040c</Culture>
     </ResourceCompile>
     <Link>
-      <AdditionalOptions>/MACHINE:I386 /SAFESEH:NO %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions>/SAFESEH:NO %(AdditionalOptions)</AdditionalOptions>
       <AdditionalDependencies>..\..\masmx86\match686.obj;..\..\masmx86\inffas32.obj;%(AdditionalDependencies)</AdditionalDependencies>
       <OutputFile>$(OutDir)zlibwapi.dll</OutputFile>
       <SuppressStartupBanner>true</SuppressStartupBanner>
@@ -282,7 +282,7 @@ bld_ml32.bat</Command>
       <Culture>0x040c</Culture>
     </ResourceCompile>
     <Link>
-      <AdditionalOptions>/MACHINE:I386 /SAFESEH:NO %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions>/SAFESEH:NO %(AdditionalOptions)</AdditionalOptions>
       <OutputFile>$(OutDir)zlibwapi.dll</OutputFile>
       <SuppressStartupBanner>true</SuppressStartupBanner>
       <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
@@ -330,7 +330,7 @@ bld_ml32.bat</Command>
       <Culture>0x040c</Culture>
     </ResourceCompile>
     <Link>
-      <AdditionalOptions>/MACHINE:I386 /SAFESEH:NO %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions>/SAFESEH:NO %(AdditionalOptions)</AdditionalOptions>
       <AdditionalDependencies>..\..\masmx86\match686.obj;..\..\masmx86\inffas32.obj;%(AdditionalDependencies)</AdditionalDependencies>
       <OutputFile>$(OutDir)zlibwapi.dll</OutputFile>
       <SuppressStartupBanner>true</SuppressStartupBanner>
@@ -393,7 +393,7 @@ bld_ml32.bat</Command>
       <SubSystem>Windows</SubSystem>
       <ImportLibrary>$(OutDir)zlibwapi.lib</ImportLibrary>
       <TargetMachine>MachineX64</TargetMachine>
-      <AdditionalOptions>/MACHINE:I386 /SAFESEH:NO %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions>/SAFESEH:NO %(AdditionalOptions)</AdditionalOptions>
     </Link>
     <PreBuildEvent>
       <Command>cd ..\..\masmx64
@@ -487,7 +487,7 @@ bld_ml64.bat</Command>
       <SubSystem>Windows</SubSystem>
       <ImportLibrary>$(OutDir)zlibwapi.lib</ImportLibrary>
       <TargetMachine>MachineX64</TargetMachine>
-      <AdditionalOptions>/MACHINE:I386 /SAFESEH:NO %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions>/SAFESEH:NO %(AdditionalOptions)</AdditionalOptions>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseWithoutAsm|Itanium'">
@@ -579,7 +579,7 @@ bld_ml64.bat</Command>
       <SubSystem>Windows</SubSystem>
       <ImportLibrary>$(OutDir)zlibwapi.lib</ImportLibrary>
       <TargetMachine>MachineX64</TargetMachine>
-      <AdditionalOptions>/MACHINE:I386 /SAFESEH:NO %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions>/SAFESEH:NO %(AdditionalOptions)</AdditionalOptions>
     </Link>
     <PreBuildEvent>
       <Command>cd ..\..\masmx64
@@ -633,7 +633,6 @@ bld_ml64.bat</Command>
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\zlibaddons.c" />
     <ClCompile Include="..\..\..\adler32.c" />
     <ClCompile Include="..\..\..\compress.c" />
     <ClCompile Include="..\..\..\crc32.c" />
@@ -643,6 +642,7 @@ bld_ml64.bat</Command>
     <ClCompile Include="..\..\..\gzread.c" />
     <ClCompile Include="..\..\..\gzwrite.c" />
     <ClCompile Include="..\..\..\infback.c" />
+    <ClCompile Include="..\..\..\zlibaddons.c" />
     <ClCompile Include="..\..\masmx64\inffas8664.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Itanium'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
@@ -683,7 +683,6 @@ bld_ml64.bat</Command>
     <None Include="zlibvc.def" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\..\zlibaddons.h" />
     <ClInclude Include="..\..\..\deflate.h" />
     <ClInclude Include="..\..\..\infblock.h" />
     <ClInclude Include="..\..\..\infcodes.h" />
@@ -692,6 +691,7 @@ bld_ml64.bat</Command>
     <ClInclude Include="..\..\..\infutil.h" />
     <ClInclude Include="..\..\..\zconf.h" />
     <ClInclude Include="..\..\..\zlib.h" />
+    <ClInclude Include="..\..\..\zlibaddons.h" />
     <ClInclude Include="..\..\..\zutil.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
